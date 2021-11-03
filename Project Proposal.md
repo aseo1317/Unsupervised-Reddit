@@ -1,4 +1,4 @@
-# Project Half-Full/Half-Empty
+# Cup Half-Empty
 
 ## Question
 Few things inspire more passion than sports. Positive, negative, or somewhere in between, sports fans aren't shy about expressing their feelings about their favorite teams. Social media, such as Reddit and Twitter, has provided more outlets than ever before, allowing fans to provide both knee-jerk reactions and long explanations. Often these feelings tend to be either overly critical or overly optimistic about their teams compared to how the fans of that sport (but not of that specific team) feel. In this project, I will be looking to compare how Boston Celtics fans feel about their team vs how the rest of the NBA's fans feel about the Celtics. Because team access is more direct than ever before, fans' opinions seem to have a greater effect on team management than ever before. Through this analysis, team owners and C-suites can see how (un)reasonable their fans are about different topics. Fans themselves can also benefit from this analysis to see if the temperature of their opinions is somewhat in line with the general NBA fanbase. 
