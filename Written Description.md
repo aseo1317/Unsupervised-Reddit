@@ -5,7 +5,7 @@ Andrew Seo
 I have been an NBA and specifically Boston Celtics fan seemingly all my life. My fandom coincides with the global popularity of the league and the sport in general. A big factor of this rise came from the proliferation of social media. On Twitter, this informal community is made up of a strange amalgamation of beat reporters, analysts, memelords, and team loyalists. "NBA Twitter" has become a corner of Twitter in and of itself to the point where it is now an important official part of the NBA news cycle. Reddit, on the other hand, is mostly amateurs and therefore more representative of the average fan and their off the cuff opinions. As I am often in my own Celtics echochamber on both platforms, I wanted to see what the average NBA fan was talking about most since the season began. Starting with all Reddit submissions since the start of the season, I used NLP and Unsupervised Learning techniques to obtain the most commonly discussed topics.      
 
 ## Design:
-
+The goal of this project was to find out what the "common NBA man" cared most about. This is most immediately accomplished using dimensionality reduction to get initial topics. These topics can take a variety of routes through further exploration, EDA, or clustering. While the original design is frankly for myself, potential audiences for this information are NBA front offices/owners, who are often in their own teams' echochambers, as well as advertisers, to better market products that correspond to the discussed topics.   
 
 ## Data:
 I acquired the 12,000 most recent submissions from the NBA Subreddit using the PSAW package. In the original grab there were over 80 columns, many of which were useless. The most relevant columns were author, selftext, and title. 
