@@ -2,10 +2,10 @@
 Andrew Seo
 
 ## Abstract:
-Over my first four years in New York, I was just another college student who treated alcohol (including wine) as a means to an end. In my last four years in New York, I have developed a love for wine, specifically natural wine. New York has also seen an explosive growth in wine and natural wines with new wine stores and wine bars opening seemingly monthly. Just ten minutes from me is an intersection with 3 wine bars all looking at each other and 2 wine stores. I want to share this love of wine and there is no better way to get people to like wines than by drinking good ones. I attempt to dig into a wine review dataset to determine which factors had the most impact on good wines. I used pandas to clean and perform EDA on my data, different scikit-learn packages for modeling, and matplot and seaborn for visualizations.
+I have been an NBA and specifically Boston Celtics fan seemingly all my life. My fandom coincides with the global popularity of the league and the sport in general. A big factor of this rise came from the proliferation of social media. On Twitter, this informal community is made up of a strange amalgamation of beat reporters, analysts, memelords, and team loyalists. "NBA Twitter" has become a corner of Twitter in and of itself to the point where it is now an important official part of the NBA news cycle. Reddit, on the other hand, is mostly amateurs and therefore more representative of the average fan and their off the cuff opinions. As I am often in my own Celtics echochamber on both platforms, I wanted to see what the average NBA fan was talking about most since the season began. Starting with all Reddit submissions since the start of the season, I used NLP and Unsupervised Learning techniques to obtain the most commonly discussed topics.      
 
 ## Design:
-My intended end goal of this project was to create a model(s) that could serve as a soft recommendation system for the average consumer or perhaps wine store employees looking for some recommendation guidance, with the caveat that wine can be very subjective so context and preference does matter. I tried out a variety of classification models and made adjustments to get a general sense of how they performed. After picking the best performing model, I tested on my holdout set.   
+
 
 ## Data:
 I acquired the 12,000 most recent submissions from the NBA Subreddit using the PSAW package. In the original grab there were over 80 columns, many of which were useless. The most relevant columns were author, selftext, and title. 
